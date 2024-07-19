@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz versao="1.0">
+    <disciplina>Música Pop</disciplina>
+    <professor>
+        <nome>Dr. K-Pop</nome>
+        <matrícula>12345</matrícula>
+    </professor>
+    <turma>A1</turma>
+    <data>2024-07-19</data>
+    <questões>
+        <questão>
+            <enunciado>Qual é o nome completo do grupo BTS?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Bangtan Sonyeondan</alternativa>
+                <alternativa correta="nao">Beyond the Scene</alternativa>
+                <alternativa correta="nao">Bangtan Boys</alternativa>
+                <alternativa correta="nao">Best Teen Singer</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Quantos membros originais tinha o BTS?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="sim">7</alternativa>
+                <alternativa correta="nao">8</alternativa>
+                <alternativa correta="nao">5</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é o nome do líder do BTS?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">RM</alternativa>
+                <alternativa correta="nao">J-Hope</alternativa>
+                <alternativa correta="nao">V</alternativa>
+                <alternativa correta="nao">Suga</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual foi o primeiro álbum do BTS?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Love Yourself: Tear</alternativa>
+                <alternativa correta="nao">Wings</alternativa>
+                <alternativa correta="nao">Map of the Soul: 7</alternativa>
+                <alternativa correta="sim">Dark e Wild</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Em que ano o BTS debutou?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">2014</alternativa>
+                <alternativa correta="nao">2012</alternativa>
+                <alternativa correta="nao">2015</alternativa>
+                <alternativa correta="sim">2013</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
