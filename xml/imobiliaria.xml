@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+    <!ELEMENT imobiliaria (imovel+)>
+    <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+    <!ELEMENT descricao (#PCDATA)>
+    <!ELEMENT proprietario (nome, (email*, telefone+))>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+    <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+    <!ELEMENT rua (#PCDATA)>
+    <!ELEMENT bairro (#PCDATA)>
+    <!ELEMENT cidade (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+    <!ELEMENT tamanho (#PCDATA)>
+    <!ELEMENT numQuartos (#PCDATA)>
+    <!ELEMENT numBanheiros (#PCDATA)>
+    <!ELEMENT valor (#PCDATA)>
+]>
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento com vista para o mar</descricao>
+        <proprietario>
+            <nome>Antônio Santos</nome>
+            <email>antonio.santos@example.com</email>
+            <telefone>+55 11 98765-4321</telefone>
+            <telefone>+55 11 91234-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Av. Oceânica</rua>
+            <bairro>Ipanema</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>5678</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1.200.000,00</valor>
+    </imovel>
+    <imovel>
+        <descricao>Casa com piscina</descricao>
+        <proprietario>
+            <nome>Fernanda Costa</nome>
+            <telefone>+55 21 99876-5432</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Alameda das Palmeiras</rua>
+            <bairro>Leblon</bairro>
+            <cidade>Rio de Janeiro</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>250m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 2.500.000,00</valor>
+    </imovel>
+    <imovel>
+        <descricao>Apartamento no centro histórico</descricao>
+        <proprietario>
+            <nome>Marcos Oliveira</nome>
+            <email>marcos.oliveira@example.com</email>
+            <telefone>+55 31 98765-4321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Laranjeiras</rua>
+            <bairro>Centro</bairro>
+            <cidade>Belo Horizonte</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 800.000,00</valor>
+    </imovel>
+    <imovel>
+        <descricao>Chácara com área verde</descricao>
+        <proprietario>
+            <nome>Lúcia Martins</nome>
+            <email>lucia.martins@example.com</email>
+            <telefone>+55 41 99876-5432</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada das Montanhas</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Curitiba</cidade>
+            <numero>SN</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>500m²</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 3.000.000,00</valor>
+    </imovel>
+    <imovel>
+        <descricao>Kitnet mobiliada</descricao>
+        <proprietario>
+            <nome>Gustavo Silva</nome>
+            <telefone>+55 61 98765-4321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Orquídeas</rua>
+            <bairro>Asa Sul</bairro>
+            <cidade>Brasília</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>30m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 300.000,00</valor>
+    </imovel>
+</imobiliaria>
