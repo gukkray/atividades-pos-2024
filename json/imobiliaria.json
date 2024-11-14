@@ -1,0 +1,103 @@
+{
+    "imobiliaria": {
+      "imovel": [
+        {
+          "descricao": "Apartamento com vista para o mar",
+          "proprietario": {
+            "nome": "Antônio Santos",
+            "email": ["antonio.santos@example.com"],
+            "telefone": ["+55 11 98765-4321", "+55 11 91234-5678"]
+          },
+          "endereco": {
+            "rua": "Av. Oceânica",
+            "bairro": "Ipanema",
+            "cidade": "Rio de Janeiro",
+            "numero": "5678"
+          },
+          "caracteristicas": {
+            "tamanho": "120m²",
+            "numQuartos": "3",
+            "numBanheiros": "2"
+          },
+          "valor": "R$ 1.200.000,00"
+        },
+        {
+          "descricao": "Casa com piscina",
+          "proprietario": {
+            "nome": "Fernanda Costa",
+            "telefone": ["+55 21 99876-5432"]
+          },
+          "endereco": {
+            "rua": "Alameda das Palmeiras",
+            "bairro": "Leblon",
+            "cidade": "Rio de Janeiro"
+          },
+          "caracteristicas": {
+            "tamanho": "250m²",
+            "numQuartos": "4",
+            "numBanheiros": "3"
+          },
+          "valor": "R$ 2.500.000,00"
+        },
+        {
+          "descricao": "Apartamento no centro histórico",
+          "proprietario": {
+            "nome": "Marcos Oliveira",
+            "email": ["marcos.oliveira@example.com"],
+            "telefone": ["+55 31 98765-4321"]
+          },
+          "endereco": {
+            "rua": "Rua das Laranjeiras",
+            "bairro": "Centro",
+            "cidade": "Belo Horizonte",
+            "numero": "123"
+          },
+          "caracteristicas": {
+            "tamanho": "80m²",
+            "numQuartos": "2",
+            "numBanheiros": "1"
+          },
+          "valor": "R$ 800.000,00"
+        },
+        {
+          "descricao": "Chácara com área verde",
+          "proprietario": {
+            "nome": "Lúcia Martins",
+            "email": ["lucia.martins@example.com"],
+            "telefone": ["+55 41 99876-5432"]
+          },
+          "endereco": {
+            "rua": "Estrada das Montanhas",
+            "bairro": "Zona Rural",
+            "cidade": "Curitiba",
+            "numero": "SN"
+          },
+          "caracteristicas": {
+            "tamanho": "500m²",
+            "numQuartos": "5",
+            "numBanheiros": "4"
+          },
+          "valor": "R$ 3.000.000,00"
+        },
+        {
+          "descricao": "Kitnet mobiliada",
+          "proprietario": {
+            "nome": "Gustavo Silva",
+            "telefone": ["+55 61 98765-4321"]
+          },
+          "endereco": {
+            "rua": "Rua das Orquídeas",
+            "bairro": "Asa Sul",
+            "cidade": "Brasília"
+          },
+          "caracteristicas": {
+            "tamanho": "30m²",
+            "numQuartos": "1",
+            "numBanheiros": "1"
+          },
+          "valor": "R$ 300.000,00"
+        }
+      ]
+    }
+  }
+  

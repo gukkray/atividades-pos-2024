@@ -1,0 +1,82 @@
+{
+    "cardapio": {
+      "prato": [
+        {
+          "id": "dp01",
+          "nome": "Pudim",
+          "descricao": "Pudim de leite",
+          "ingredientes": [
+            "açúcar",
+            "leite condensado",
+            "Leite",
+            "ovo"
+          ],
+          "preco": "40 reais",
+          "calorias": "750 kcal",
+          "tempodePreparo": "40 minutos"
+        },
+        {
+          "id": "dp02",
+          "nome": "Lasanha à Bolonhesa",
+          "descricao": "Camadas de massa intercaladas com molho de carne moída à bolonhesa e queijo",
+          "ingredientes": [
+            "para lasanha",
+            "carne moída",
+            "tomate",
+            "queijo mozarela",
+            "queijo parmesão"
+          ],
+          "preco": "22 reais",
+          "calorias": "450 kcal",
+          "tempodePreparo": "60 minutos"
+        },
+        {
+          "id": "dp03",
+          "nome": "Frango à Parmegiana",
+          "descricao": "Peito de frango empanado e frito, coberto com molho de tomate e queijo derretido",
+          "ingredientes": [
+            "Peito de frango",
+            "farinha de rosca",
+            "ovos",
+            "molho de tomate",
+            "queijo mozarela",
+            "queijo parmesão"
+          ],
+          "preco": "18 reais",
+          "calorias": "380 kcal",
+          "tempodePreparo": "50 minutos"
+        },
+        {
+          "id": "dp04",
+          "nome": "Massa Carbonara",
+          "descricao": "Massa italiana com molho à base de ovos, queijo parmesão, pancetta e pimenta preta",
+          "ingredientes": [
+            "Massa tipo spaghetti",
+            "ovos",
+            "queijo parmesão",
+            "pancetta",
+            "pimenta preta"
+          ],
+          "preco": "20 reais",
+          "calorias": "400 kcal",
+          "tempodePreparo": "30 minutos"
+        },
+        {
+          "id": "dp05",
+          "nome": "Sushi Combo",
+          "descricao": "Seleção variada de sushis e sashimis, acompanhados de molho de soja e wasabi",
+          "ingredientes": [
+            "Arroz de sushi",
+            "peixes variados",
+            "nori",
+            "molho de soja",
+            "wasabi"
+          ],
+          "preco": "30 reais",
+          "calorias": "350 kcal",
+          "tempodePreparo": "45 minutos"
+        }
+      ]
+    }
+  }
+  

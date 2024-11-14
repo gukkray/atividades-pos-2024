@@ -1,0 +1,125 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Música de boa qualidade",
+      "professor": {
+        "nome": "Dr. ciliro",
+        "matrícula": "134340"
+      },
+      "turma": "A1",
+      "data": "2024-07-19",
+      "questões": [
+        {
+          "enunciado": "Qual é o nome completo do grupo BTS?",
+          "pontuação": 1,
+          "alternativas": [
+            {
+              "resposta": "Bangtan Sonyeondan",
+              "correta": true
+            },
+            {
+              "resposta": "Beyond the Scene",
+              "correta": false
+            },
+            {
+              "resposta": "Bangtan Boys",
+              "correta": false
+            },
+            {
+              "resposta": "Best Teen Singer",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "enunciado": "Quantos membros originais tinha o BTS?",
+          "pontuação": 1,
+          "alternativas": [
+            {
+              "resposta": "6",
+              "correta": false
+            },
+            {
+              "resposta": "7",
+              "correta": true
+            },
+            {
+              "resposta": "8",
+              "correta": false
+            },
+            {
+              "resposta": "5",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "enunciado": "Qual é o nome do líder do BTS?",
+          "pontuação": 1,
+          "alternativas": [
+            {
+              "resposta": "RM",
+              "correta": true
+            },
+            {
+              "resposta": "J-Hope",
+              "correta": false
+            },
+            {
+              "resposta": "V",
+              "correta": false
+            },
+            {
+              "resposta": "Suga",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "enunciado": "Qual foi o primeiro álbum do BTS?",
+          "pontuação": 1,
+          "alternativas": [
+            {
+              "resposta": "Love Yourself: Tear",
+              "correta": false
+            },
+            {
+              "resposta": "Wings",
+              "correta": false
+            },
+            {
+              "resposta": "Map of the Soul: 7",
+              "correta": false
+            },
+            {
+              "resposta": "Dark e Wild",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "enunciado": "Em que ano o BTS debutou?",
+          "pontuação": 1,
+          "alternativas": [
+            {
+              "resposta": "2014",
+              "correta": false
+            },
+            {
+              "resposta": "2013",
+              "correta": true
+            },
+            {
+              "resposta": "2012",
+              "correta": false
+            },
+            {
+              "resposta": "2015",
+              "correta": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
