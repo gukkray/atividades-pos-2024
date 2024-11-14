@@ -29,10 +29,7 @@ def exibir_detalhes_prato(pratos, escolha):
         print("Opção inválida. Tente novamente.")
 
 def main():
-    # Define o caminho relativo para o arquivo XML
     caminho_arquivo_xml = os.path.join("..", "xml", "cardapio.xml")
-    
-    # Carrega o arquivo XML usando o caminho relativo
     dom = parse(caminho_arquivo_xml)
     cardapio = dom.documentElement
     pratos = cardapio.getElementsByTagName("prato")
