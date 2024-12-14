@@ -2,6 +2,7 @@ import requests
 import argparse
 import json
 
+
 BASE_URL = "https://jsonplaceholder.typicode.com"
 
 def listar_usuarios():

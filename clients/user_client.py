@@ -9,7 +9,6 @@ def print_error(message):
     print(Fore.RED + message + Style.RESET_ALL)
 
 def detail_user(user):
-    # Detalhamento do usuário com layout ajustado
     print(f"\n{Fore.YELLOW}=== Detalhes do Usuário ==={Style.RESET_ALL}")
     print(f"Nome: {user['name']} ({user['username']})")
     print(f"Email: {user['email']}")
@@ -34,7 +33,6 @@ def list_users():
         print_error(str(e))
 
 def create_user():
-    # Simplificar a entrada do usuário
     print(f"{Fore.YELLOW}=== Criar Novo Usuário ==={Style.RESET_ALL}")
     name = input("Nome Completo: ")
     username = input("Nome de Usuário: ")
@@ -47,7 +45,6 @@ def create_user():
         print_error(str(e))
 
 def update_user():
-    # Adicionar mais campos opcionais
     print(f"{Fore.YELLOW}=== Atualizar Usuário ==={Style.RESET_ALL}")
     user_id = input("ID do Usuário: ")
     try:
@@ -94,6 +91,7 @@ def main_menu():
             break
         else:
             print_error("Opção inválida. Tente novamente.")
+
 
 if __name__ == "__main__":
     main_menu()

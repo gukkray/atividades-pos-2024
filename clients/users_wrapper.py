@@ -20,3 +20,4 @@ class UserAPI:
         response = requests.post(cls.BASE_URL, json=data)
         cls._handle_error(response)
         return response.json()
+
